@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<ruleset>
+  <exclude-pattern>vendor/*</exclude-pattern>
+
+  <arg name="extensions" value="php"/>
+  <arg name="colors"/>
+
+  <rule ref="PSR12">
+    <exclude name="PSR2.Files.EndFileNewline"/>
+    <exclude name="PSR1.Files.SideEffects.FoundWithSymbols"/>
+  </rule>
+
+  <rule ref="Squiz.Strings.DoubleQuoteUsage.NotRequired"/>
+  <rule ref="Squiz.NamingConventions.ValidVariableName.MemberNotCamelCaps"/>
+  <rule ref="Squiz.NamingConventions.ValidVariableName.NotCamelCaps"/>
+  <rule ref="Squiz.NamingConventions.ValidVariableName.StringNotCamelCaps"/>
+</ruleset>

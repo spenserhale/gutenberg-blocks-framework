@@ -1,0 +1,18 @@
+title: "Gutenberg Blocks Framework 🧱 Docs"
+remote_theme: pmarsceill/just-the-docs
+color_scheme: "dark"
+aux_links:
+  "GitHub":
+    - "https://github.com/spenserhale/gutenberg-blocks-framework"
+aux_links_new_tab: true
+footer_content: "Copyright &copy; 2023 Spenser Hale. <a href=\"https://github.com/spenserhale/gutenberg-blocks-framework/blob/master/LICENSE\">GPL-3.0</a>"
+gh_edit_link: true
+gh_edit_link_text: "Edit this page on GitHub."
+gh_edit_repository: "https://github.com/spenserhale/gutenberg-blocks-framework"
+gh_edit_branch: "master"
+gh_edit_source: "docs"
+gh_edit_view_mode: "edit"
+plugins:
+  - jekyll-remote-theme
+exclude:
+- README.md
